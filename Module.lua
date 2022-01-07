@@ -48,7 +48,7 @@ local Aiming = {
     FOVColour = Color3fromRGB(231, 84, 128),
 
     VisibleCheck = true,
-    ShowCredits = false,
+    ShowCredits = true,
 
     HitChance = 100,
 
@@ -543,6 +543,10 @@ Heartbeat:Connect(function()
     Aiming.UpdateFOV()
     Aiming.GetClosestPlayerToCursor()
 end)
+
+-- // Credits (by disabling this and not including your own way of crediting within the script, e.g. credits tab, is violating the license agreement. Beware!)
+if (Aiming.ShowCredits) then
+end
 
 -- //
 return Aiming
