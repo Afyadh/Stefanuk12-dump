@@ -1,7 +1,5 @@
--- Dahood Game Patch
 --[[
     Information:
-
     - Da Hood (https://www.roblox.com/games/2788229376/)
 ]]
 
