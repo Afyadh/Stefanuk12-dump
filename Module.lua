@@ -48,7 +48,7 @@ local Aiming = {
     FOVColour = Color3fromRGB(231, 84, 128),
 
     VisibleCheck = true,
-    ShowCredits = true,
+    ShowCredits = false,
 
     HitChance = 100,
 
